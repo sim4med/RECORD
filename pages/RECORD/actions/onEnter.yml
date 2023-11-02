@@ -1,0 +1,36 @@
+id: '16988328120630.46481628977182177'
+name: onEnter
+nameConfigured: true
+steps:
+  - id: '16988328147520.4435985135604217'
+    type: customAsyncCode
+    name: code
+    params:
+      - type: asyncCode
+        value: |
+          state.Preamble = ui.input.value
+          state.iLength = ui.input2.value
+        valueType: interpolatedValue
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+mode: manual
+modeConfigured: true
+parentPageId: '1'
+folder: false
+config:
+  shouldConfirm: false
+  confirmMessage: Are you sure you'd like to proceed with "{{actions.onEnter.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.onEnter.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.onEnter.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: false
+index: 2

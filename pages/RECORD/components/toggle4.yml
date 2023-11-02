@@ -1,0 +1,24 @@
+id: '16987668992310.7987424028608243'
+definitionId: booleanEdit
+parentSlotId: '2'
+styles:
+  xl:
+    gridItem:
+      x: 1
+      y: 118
+      w: 2
+      h: 10
+  xs:
+    gridItem:
+      x: 0
+      y: 40
+      w: 24
+      h: 10
+properties:
+  name: toggle4
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  label: Channel 4
+actions: {}
+slots: []

@@ -1,0 +1,24 @@
+id: '16987684808660.5575973270182957'
+definitionId: button
+parentSlotId: '2'
+styles:
+  xl:
+    gridItem:
+      x: 4
+      y: 88
+      w: 1
+      h: 10
+  xs:
+    gridItem:
+      x: 0
+      y: 100
+      w: 24
+      h: 10
+properties:
+  name: button3
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  text: Pause
+actions: {}
+slots: []

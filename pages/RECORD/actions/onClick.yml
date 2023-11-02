@@ -1,0 +1,42 @@
+id: '16987663717260.9702718220001387'
+name: onClick
+nameConfigured: true
+steps:
+  - id: '16987663748400.542176895581806'
+    type: putInStore
+    name: save
+    params:
+      - type: name
+        value: '16987663955580.2645690329482995'
+        valueType: string
+      - type: value
+        value: |-
+          !{{state.isRecording}}
+           
+        valueType: interpolatedValue
+        interpolationType: code
+      - type: producible
+        value: true
+        valueType: custom
+    level: 0
+    fallthroughError: false
+    isChanged: true
+mode: manual
+modeConfigured: true
+parentPageId: '1'
+folder: false
+config:
+  shouldConfirm: false
+  confirmMessage: Are you sure you'd like to proceed with "{{actions.onClick.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.onClick.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.onClick.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: false
+index: 0

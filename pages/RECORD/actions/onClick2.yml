@@ -1,0 +1,81 @@
+id: '16987845031130.46711352264933526'
+name: onClick2
+nameConfigured: true
+steps:
+  - id: '16987845051230.027263140688302823'
+    type: putInStore
+    name: save
+    params:
+      - type: name
+        value: '16987841871510.9674700263337148'
+        valueType: string
+      - type: value
+        value: '!{{state.isInstant}}'
+        valueType: interpolatedValue
+        interpolationType: code
+      - type: producible
+        value: true
+        valueType: custom
+    level: 0
+    fallthroughError: false
+    isChanged: true
+    nameConfigured: true
+  - id: '16988265586670.5067120800364269'
+    type: pythonCode
+    name: code2
+    params:
+      - type: code
+        value: |+
+          import time
+          time.sleep(seconds)
+
+
+        valueType: interpolatedValue
+        interpolationType: string
+      - type: variables
+        value:
+          - name: seconds
+            value: '{{state.iLength}}'
+          - name: ''
+            value: ''
+        valueType: custom
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+  - id: '16988270008400.4429961640901965'
+    type: putInStore
+    name: save2
+    params:
+      - type: name
+        value: '16987841871510.9674700263337148'
+        valueType: string
+      - type: value
+        value: '!{{state.isInstant}}'
+        valueType: interpolatedValue
+        interpolationType: code
+      - type: producible
+        value: true
+        valueType: custom
+    level: 0
+    fallthroughError: false
+    isChanged: true
+mode: manual
+modeConfigured: true
+parentPageId: '1'
+folder: false
+config:
+  shouldConfirm: false
+  confirmMessage: Are you sure you'd like to proceed with "{{actions.onClick2.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.onClick2.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.onClick2.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: false
+index: 1

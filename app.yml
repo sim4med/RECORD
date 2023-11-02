@@ -1,0 +1,36 @@
+storeItemList:
+  - id: '16987663955580.2645690329482995'
+    name: isRecording
+    value: '0'
+    valueType: string
+    initialValue: '0'
+    version: 1
+  - id: '16987693139350.9777278969763075'
+    name: Preamble
+    value: 0
+    valueType: number
+    initialValue: 0
+    version: 1
+  - id: '16987841871510.9674700263337148'
+    name: isInstant
+    value: 'false'
+    valueType: string
+    initialValue: 'false'
+    version: 1
+  - id: '16988317068280.5248396854779853'
+    name: iLength
+    value: 0
+    valueType: number
+    initialValue: 0
+    version: 1
+metadata:
+  favicon: ''
+  code: ''
+  title: New app
+  description: ''
+appSettings:
+  properties:
+    defaultData: '{}'
+  actions: {}
+  gridVersion: 2
+internalType: project
